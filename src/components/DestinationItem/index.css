@@ -1,0 +1,22 @@
+.destination-item {
+  list-style-type: none;
+  width: 235px;
+  margin: 0px 16px 32px 16px;
+}
+
+.destination-image {
+  height: 175px;
+  width: 235px;
+}
+
+.name {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #000000;
+}
+
+@media screen and (min-width: 768px) {
+  .name {
+    font-size: 24px;
+  }
+}

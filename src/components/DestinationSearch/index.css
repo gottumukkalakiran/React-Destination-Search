@@ -1,0 +1,66 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+}
+
+.destinations-search-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  max-width: 1140px;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  color: #252627;
+  margin: 48px 0px 16px 32px;
+}
+
+.search-input-container {
+  display: flex;
+  background-color: #f1f5f9;
+  border-radius: 8px;
+  padding: 8px 16px;
+  margin-left: 16px;
+}
+
+.search-input {
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  color: #0f172a;
+  background-color: #f1f5f9;
+}
+
+.search-icon {
+  height: 20px;
+  width: 20px;
+}
+
+.destinations-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-left: 0px;
+  margin-top: 48px;
+}
+
+@media screen and (min-width: 768px) {
+  .destinations-search-container {
+    align-items: flex-start;
+  }
+
+  .heading {
+    margin-top: 96px;
+  }
+
+  .destinations-list {
+    justify-content: flex-start;
+  }
+}
